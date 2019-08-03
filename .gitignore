@@ -1,0 +1,7 @@
+build/
+DerivedData/
+
+## Various settings
+*.xcuserstate
+*.DS_Store
+EasyPR-Swift/opencv2.framework
