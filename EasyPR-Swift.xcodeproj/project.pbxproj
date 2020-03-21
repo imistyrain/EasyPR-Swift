@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E06409D22EFF30D00312230 /* CvText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E06409C22EFF30D00312230 /* CvText.cpp */; };
-		0E0640A222EFF50B00312230 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0640A122EFF50B00312230 /* libFreetype2.a */; };
 		0E97C3CB22EDAC100039719B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C3CA22EDAC100039719B /* AppDelegate.swift */; };
 		0E97C3CD22EDAC100039719B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C3CC22EDAC100039719B /* ViewController.swift */; };
 		0E97C3D222EDAC110039719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C3D122EDAC110039719B /* Assets.xcassets */; };
@@ -42,12 +41,12 @@
 		0E97C56022EDBBD00039719B /* model in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C55F22EDBBD00039719B /* model */; };
 		0E97C56422EDD0810039719B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C3CE22EDAC100039719B /* Main.storyboard */; };
 		0E97C56F22EE9E870039719B /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C56E22EE9E870039719B /* test.jpg */; };
+		0EB05F9D240BF0C800710B47 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB05F9C240BF0C800710B47 /* libFreetype2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E06409B22EFF30D00312230 /* CvText.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; path = CvText.h; sourceTree = "<group>"; };
 		0E06409C22EFF30D00312230 /* CvText.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = CvText.cpp; sourceTree = "<group>"; };
-		0E0640A122EFF50B00312230 /* libFreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFreetype2.a; sourceTree = "<group>"; };
 		0E97C3C722EDAC100039719B /* EasyPR-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyPR-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E97C3CA22EDAC100039719B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E97C3CC22EDAC100039719B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +117,8 @@
 		0E97C52E22EDB00A0039719B /* train.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = train.cpp; sourceTree = "<group>"; };
 		0E97C55F22EDBBD00039719B /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
 		0E97C56E22EE9E870039719B /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		0EB05F9C240BF0C800710B47 /* libFreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFreetype2.a; path = "../../Library/Developer/Xcode/DerivedData/freetype2-etnjjgxxytirwmhcgnfweycsltll/Build/Products/Debug-iphoneos/libFreetype2.a"; sourceTree = "<group>"; };
+		0EB05F9E240BF0DC00710B47 /* libFreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFreetype2.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0640A222EFF50B00312230 /* libFreetype2.a in Frameworks */,
 				0E97C3F922EDAC410039719B /* opencv2.framework in Frameworks */,
+				0EB05F9D240BF0C800710B47 /* libFreetype2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +137,7 @@
 		0E06409E22EFF4B500312230 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E0640A122EFF50B00312230 /* libFreetype2.a */,
+				0EB05F9E240BF0DC00710B47 /* libFreetype2.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +149,7 @@
 				0E97C3C922EDAC100039719B /* EasyPR-Swift */,
 				0E97C3C822EDAC100039719B /* Products */,
 				0E06409E22EFF4B500312230 /* Frameworks */,
+				0EB05F9C240BF0C800710B47 /* libFreetype2.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -620,6 +622,7 @@
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/gongyanhe/iOSProjects/freetype2-ios/include";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "./**";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -651,6 +654,7 @@
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/gongyanhe/iOSProjects/freetype2-ios/include";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "./**";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

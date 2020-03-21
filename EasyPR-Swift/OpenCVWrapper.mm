@@ -104,13 +104,12 @@ static void drawRotatedRects(cv::Mat &img,cv::RotatedRect rr,cv::Scalar color=cv
     cv::line(img,vertices[3],vertices[0],color,tickness);
 }
 
+easypr::CPlateRecognize pr;
+
 @implementation OpenCVWrapper
 + (nonnull UIImage *)plateRecognize:(nonnull UIImage *)image {
     cv::Mat bgrMat;
     UIImageToMat(image, bgrMat);
-    easypr::CPlateRecognize pr;
-    pr.setResultShow(false);
-    pr.setDetectType(easypr::PR_DETECT_CMSER);
     string license;
     vector<easypr::CPlate> plateVec;
     cv::TickMeter tm;
@@ -141,6 +140,10 @@ static void drawRotatedRects(cv::Mat &img,cv::RotatedRect rr,cv::Scalar color=cv
     //GlobalData::MainPath = std::string([path UTF8String]);
     string fontpath=easypr::modeldir+"/simhei.ttf";
     pText=new CvText(fontpath.c_str());
+    pr.setResultShow(false);
+    // PR_DETECT_CMSER 60ms
+    // PR_DETECT_COLOR 20ms
+    pr.setDetectType(easypr::PR_DETECT_COLOR);
 }
 
 @end
