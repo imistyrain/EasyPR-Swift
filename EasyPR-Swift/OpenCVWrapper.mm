@@ -106,6 +106,14 @@ static void drawRotatedRects(cv::Mat &img,cv::RotatedRect rr,cv::Scalar color=cv
 
 easypr::CPlateRecognize pr;
 
+template <class T>
+static std::string tostring(const T &t)
+{
+    std::stringstream ss;
+    ss << t;
+    return ss.str();
+}
+
 @implementation OpenCVWrapper
 + (nonnull UIImage *)plateRecognize:(nonnull UIImage *)image {
     cv::Mat bgrMat;
@@ -118,19 +126,17 @@ easypr::CPlateRecognize pr;
     tm.stop();
     for(auto pv : plateVec){
 //        cout<<pv.getPlateStr()<<endl;
-        drawRotatedRects(bgrMat,pv.getPlatePos());
-        auto pp=pv.getPlatePos();
-        cv::Point pt=pp.center;
-        pt.x-=100;
-        if(pt.y>=60)
-            pt.y-=60;
+        drawRotatedRects(bgrMat, pv.getPlatePos());
+        auto pp = pv.getPlatePos();
+        cv::Point pt = pp.center;
+        pt.x -= 100;
+        if(pt.y >= 60)
+            pt.y -= 60;
         else
-            pt.y=60;
-        pText->putText(bgrMat, pv.getPlateStr(), pt, Scalar(0,0,255));
-//        pt.y+=120;
-//        cv::putText(bgrMat, pv.getPlateStr(), pt, 3, 1, cv::Scalar(0,0,255));
+            pt.y = 60;
+        pText->putText(bgrMat, pv.getPlateStr(), pt, Scalar(0, 0, 255));
     }
-    cv::putText(bgrMat,to_string(tm.getTimeMilli())+"ms", cv::Point(0,60), 3, 1, cv::Scalar(0,0,255));
+    cv::putText(bgrMat,tostring(floor(tm.getTimeMilli()*100)/100) + "ms", cv::Point(100, 160), 3, 1, cv::Scalar(0, 0, 255));
     UIImage *resultImage=MatToUIImage(bgrMat);
     return RestoreUIImageOrientation(resultImage, image);
 }
@@ -138,8 +144,8 @@ easypr::CPlateRecognize pr;
 + (void)setmodeldir:(NSString*)path {
     easypr::modeldir = std::string([path UTF8String])+"/model";
     //GlobalData::MainPath = std::string([path UTF8String]);
-    string fontpath=easypr::modeldir+"/simhei.ttf";
-    pText=new CvText(fontpath.c_str());
+    string fontpath = easypr::modeldir + "/simhei.ttf";
+    pText = new CvText(fontpath.c_str());
     pr.setResultShow(false);
     // PR_DETECT_CMSER 60ms
     // PR_DETECT_COLOR 20ms

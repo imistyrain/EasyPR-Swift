@@ -42,6 +42,28 @@
 		0E97C56422EDD0810039719B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C3CE22EDAC100039719B /* Main.storyboard */; };
 		0E97C56F22EE9E870039719B /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E97C56E22EE9E870039719B /* test.jpg */; };
 		0EB05F9D240BF0C800710B47 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB05F9C240BF0C800710B47 /* libFreetype2.a */; };
+		0ED0143E2427097C00212279 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014282427097C00212279 /* Icon.png */; };
+		0ED0143F2427097C00212279 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014292427097C00212279 /* Icon-76@2x.png */; };
+		0ED014402427097C00212279 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142A2427097C00212279 /* iTunesArtwork */; };
+		0ED014412427097C00212279 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142B2427097C00212279 /* Icon-76@3x.png */; };
+		0ED014422427097C00212279 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142C2427097C00212279 /* Icon-Small.png */; };
+		0ED014432427097C00212279 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142D2427097C00212279 /* Icon-60@3x.png */; };
+		0ED014442427097C00212279 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142E2427097C00212279 /* Icon-Spotlight-40@3x.png */; };
+		0ED014452427097C00212279 /* Icon-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0142F2427097C00212279 /* Icon-iPadPro@2x.png */; };
+		0ED014462427097C00212279 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014302427097C00212279 /* Icon-76.png */; };
+		0ED014472427097C00212279 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014312427097C00212279 /* Icon-60.png */; };
+		0ED014482427097C00212279 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014322427097C00212279 /* Icon-Spotlight-40.png */; };
+		0ED014492427097C00212279 /* easypr.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014332427097C00212279 /* easypr.psd */; };
+		0ED0144A2427097C00212279 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014342427097C00212279 /* Icon-Small-50@2x.png */; };
+		0ED0144B2427097C00212279 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014352427097C00212279 /* Icon-72.png */; };
+		0ED0144C2427097C00212279 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014362427097C00212279 /* Icon-72@2x.png */; };
+		0ED0144D2427097C00212279 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014372427097C00212279 /* Icon-Spotlight-40@2x.png */; };
+		0ED0144E2427097C00212279 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014382427097C00212279 /* Icon-60@2x.png */; };
+		0ED0144F2427097C00212279 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED014392427097C00212279 /* Icon@2x.png */; };
+		0ED014502427097C00212279 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0143A2427097C00212279 /* Icon-Small@3x.png */; };
+		0ED014512427097C00212279 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0143B2427097C00212279 /* Icon-Small-50.png */; };
+		0ED014522427097C00212279 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0143C2427097C00212279 /* Icon-Small@2x.png */; };
+		0ED014532427097C00212279 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0143D2427097C00212279 /* iTunesArtwork@2x */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,7 +140,28 @@
 		0E97C55F22EDBBD00039719B /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
 		0E97C56E22EE9E870039719B /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		0EB05F9C240BF0C800710B47 /* libFreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFreetype2.a; path = "../../Library/Developer/Xcode/DerivedData/freetype2-etnjjgxxytirwmhcgnfweycsltll/Build/Products/Debug-iphoneos/libFreetype2.a"; sourceTree = "<group>"; };
-		0EB05F9E240BF0DC00710B47 /* libFreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFreetype2.a; sourceTree = "<group>"; };
+		0ED014282427097C00212279 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0ED014292427097C00212279 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		0ED0142A2427097C00212279 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		0ED0142B2427097C00212279 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
+		0ED0142C2427097C00212279 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		0ED0142D2427097C00212279 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		0ED0142E2427097C00212279 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		0ED0142F2427097C00212279 /* Icon-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPadPro@2x.png"; sourceTree = "<group>"; };
+		0ED014302427097C00212279 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		0ED014312427097C00212279 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		0ED014322427097C00212279 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		0ED014332427097C00212279 /* easypr.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = easypr.psd; sourceTree = "<group>"; };
+		0ED014342427097C00212279 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		0ED014352427097C00212279 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0ED014362427097C00212279 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0ED014372427097C00212279 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		0ED014382427097C00212279 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		0ED014392427097C00212279 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0ED0143A2427097C00212279 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		0ED0143B2427097C00212279 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0ED0143C2427097C00212279 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		0ED0143D2427097C00212279 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +180,6 @@
 		0E06409E22EFF4B500312230 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EB05F9E240BF0DC00710B47 /* libFreetype2.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +206,7 @@
 		0E97C3C922EDAC100039719B /* EasyPR-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0ED014272427097C00212279 /* icon */,
 				0E97C51922EDB00A0039719B /* src */,
 				0E97C50522EDB00A0039719B /* thirdparty */,
 				0E97C4E922EDB0030039719B /* easypr */,
@@ -350,6 +393,35 @@
 			path = train;
 			sourceTree = "<group>";
 		};
+		0ED014272427097C00212279 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				0ED014282427097C00212279 /* Icon.png */,
+				0ED014292427097C00212279 /* Icon-76@2x.png */,
+				0ED0142A2427097C00212279 /* iTunesArtwork */,
+				0ED0142B2427097C00212279 /* Icon-76@3x.png */,
+				0ED0142C2427097C00212279 /* Icon-Small.png */,
+				0ED0142D2427097C00212279 /* Icon-60@3x.png */,
+				0ED0142E2427097C00212279 /* Icon-Spotlight-40@3x.png */,
+				0ED0142F2427097C00212279 /* Icon-iPadPro@2x.png */,
+				0ED014302427097C00212279 /* Icon-76.png */,
+				0ED014312427097C00212279 /* Icon-60.png */,
+				0ED014322427097C00212279 /* Icon-Spotlight-40.png */,
+				0ED014332427097C00212279 /* easypr.psd */,
+				0ED014342427097C00212279 /* Icon-Small-50@2x.png */,
+				0ED014352427097C00212279 /* Icon-72.png */,
+				0ED014362427097C00212279 /* Icon-72@2x.png */,
+				0ED014372427097C00212279 /* Icon-Spotlight-40@2x.png */,
+				0ED014382427097C00212279 /* Icon-60@2x.png */,
+				0ED014392427097C00212279 /* Icon@2x.png */,
+				0ED0143A2427097C00212279 /* Icon-Small@3x.png */,
+				0ED0143B2427097C00212279 /* Icon-Small-50.png */,
+				0ED0143C2427097C00212279 /* Icon-Small@2x.png */,
+				0ED0143D2427097C00212279 /* iTunesArtwork@2x */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -409,11 +481,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED0144A2427097C00212279 /* Icon-Small-50@2x.png in Resources */,
+				0ED0143E2427097C00212279 /* Icon.png in Resources */,
+				0ED0144C2427097C00212279 /* Icon-72@2x.png in Resources */,
+				0ED014532427097C00212279 /* iTunesArtwork@2x in Resources */,
 				0E97C56022EDBBD00039719B /* model in Resources */,
+				0ED014412427097C00212279 /* Icon-76@3x.png in Resources */,
+				0ED014522427097C00212279 /* Icon-Small@2x.png in Resources */,
+				0ED0144F2427097C00212279 /* Icon@2x.png in Resources */,
+				0ED014502427097C00212279 /* Icon-Small@3x.png in Resources */,
+				0ED014462427097C00212279 /* Icon-76.png in Resources */,
 				0E97C56F22EE9E870039719B /* test.jpg in Resources */,
+				0ED0144D2427097C00212279 /* Icon-Spotlight-40@2x.png in Resources */,
+				0ED014472427097C00212279 /* Icon-60.png in Resources */,
 				0E97C3D222EDAC110039719B /* Assets.xcassets in Resources */,
+				0ED0143F2427097C00212279 /* Icon-76@2x.png in Resources */,
 				0E97C56422EDD0810039719B /* Main.storyboard in Resources */,
+				0ED014442427097C00212279 /* Icon-Spotlight-40@3x.png in Resources */,
+				0ED014492427097C00212279 /* easypr.psd in Resources */,
+				0ED0144B2427097C00212279 /* Icon-72.png in Resources */,
+				0ED014512427097C00212279 /* Icon-Small-50.png in Resources */,
+				0ED0144E2427097C00212279 /* Icon-60@2x.png in Resources */,
 				0E97C3D522EDAC110039719B /* LaunchScreen.storyboard in Resources */,
+				0ED014452427097C00212279 /* Icon-iPadPro@2x.png in Resources */,
+				0ED014422427097C00212279 /* Icon-Small.png in Resources */,
+				0ED014482427097C00212279 /* Icon-Spotlight-40.png in Resources */,
+				0ED014402427097C00212279 /* iTunesArtwork in Resources */,
+				0ED014432427097C00212279 /* Icon-60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -583,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -598,14 +692,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XUDPNYZ2ZC;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EasyPR-Swift",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "EasyPR-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,8 +709,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanyu.OpenCVDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.com.platedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200312_1_wildcard_provisioning;
 				SWIFT_OBJC_BRIDGING_HEADER = "EasyPR-Swift/EasyPR-Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -631,14 +727,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XUDPNYZ2ZC;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EasyPR-Swift",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "EasyPR-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -647,8 +744,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanyu.OpenCVDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.com.platedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200312_1_wildcard_provisioning;
 				SWIFT_OBJC_BRIDGING_HEADER = "EasyPR-Swift/EasyPR-Swift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/gongyanhe/iOSProjects/freetype2-ios/include";
