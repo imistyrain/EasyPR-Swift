@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenCVWrapper : NSObject
 + (nonnull UIImage *)plateRecognize:(nonnull UIImage *)image;
++ (nonnull UIImage *)detect:(unsigned char *)data: (int)width: (int)height;
 + (void)setmodeldir:(NSString*)path;
 @end
 

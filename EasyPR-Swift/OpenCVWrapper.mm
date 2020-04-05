@@ -115,6 +115,12 @@ static std::string tostring(const T &t)
 }
 
 @implementation OpenCVWrapper
++ (nonnull UIImage *)detect:(unsigned char *)data: (int)width: (int)height{
+    cv::Mat bgra = cv::Mat(width, height, CV_8UC4, data);
+    UIImage *resultImage=MatToUIImage(bgra);
+    return resultImage;
+}
+
 + (nonnull UIImage *)plateRecognize:(nonnull UIImage *)image {
     cv::Mat bgrMat;
     UIImageToMat(image, bgrMat);
@@ -122,7 +128,7 @@ static std::string tostring(const T &t)
     vector<easypr::CPlate> plateVec;
     cv::TickMeter tm;
     tm.start();
-    int result= pr.plateRecognize(bgrMat, plateVec);
+    pr.plateRecognize(bgrMat, plateVec);
     tm.stop();
     for(auto pv : plateVec){
 //        cout<<pv.getPlateStr()<<endl;
@@ -147,9 +153,7 @@ static std::string tostring(const T &t)
     string fontpath = easypr::modeldir + "/simhei.ttf";
     pText = new CvText(fontpath.c_str());
     pr.setResultShow(false);
-    // PR_DETECT_CMSER 60ms
-    // PR_DETECT_COLOR 20ms
-    pr.setDetectType(easypr::PR_DETECT_COLOR);
+    pr.setDetectType(easypr::PR_DETECT_CMSER);
 }
 
 @end

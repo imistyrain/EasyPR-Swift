@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         output.videoSettings = [(kCVPixelBufferPixelFormatTypeKey as NSString):NSNumber(value:kCVPixelFormatType_32BGRA)] as [String : Any]
         output.alwaysDiscardsLateVideoFrames = true
         guard let session = session else { return }
+        session.sessionPreset = AVCaptureSession.Preset.hd1280x720;
         session.beginConfiguration()
         if session.canAddInput(input) {
             session.addInput(input)
@@ -55,15 +56,22 @@ extension ViewController : AVCaptureVideoDataOutputSampleBufferDelegate{
         CVPixelBufferLockBaseAddress(buffer, CVPixelBufferLockFlags.readOnly)
         let image = CIImage(cvPixelBuffer: buffer).oriented(CGImagePropertyOrientation.right)
         let capturedImage = UIImage(ciImage: image)
+//        let baseAddress = CVPixelBufferGetBaseAddressOfPlane(buffer, 0);
+//        let width = CVPixelBufferGetWidth(buffer);
+//        let height = CVPixelBufferGetHeight(buffer);
         CVPixelBufferUnlockBaseAddress(buffer, CVPixelBufferLockFlags.readOnly)
+        
         //let startTime = CFAbsoluteTimeGetCurrent()
         let resultImage = OpenCVWrapper.plateRecognize(capturedImage)
+        //let byteBuffer = UnsafeMutablePointer<UInt8>(baseAddress);
+        //let data = unsafeBitCast(CVPixelBufferGetBaseAddress(buffer), to: UnsafeMutablePointer<UInt8>.self);
+        //let resultImage = OpenCVWrapper.detect(data, width, height);
         //let endTime = CFAbsoluteTimeGetCurrent()
         //let cost=(endTime - startTime)*1000
         //debugPrint("\(cost) ms")
-        //let resultImage=capturedImage
+        //let resultImage = capturedImage
         DispatchQueue.main.async{
-            self.imageView.image=resultImage
+            self.imageView.image = resultImage
         }
     }
 }
