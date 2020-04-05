@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         output.videoSettings = [(kCVPixelBufferPixelFormatTypeKey as NSString):NSNumber(value:kCVPixelFormatType_32BGRA)] as [String : Any]
         output.alwaysDiscardsLateVideoFrames = true
         guard let session = session else { return }
+        session.sessionPreset = AVCaptureSession.Preset.hd1280x720;
         session.beginConfiguration()
         if session.canAddInput(input) {
             session.addInput(input)

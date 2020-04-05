@@ -147,9 +147,7 @@ static std::string tostring(const T &t)
     string fontpath = easypr::modeldir + "/simhei.ttf";
     pText = new CvText(fontpath.c_str());
     pr.setResultShow(false);
-    // PR_DETECT_CMSER 60ms
-    // PR_DETECT_COLOR 20ms
-    pr.setDetectType(easypr::PR_DETECT_COLOR);
+    pr.setDetectType(easypr::PR_DETECT_CMSER);
 }
 
 @end
